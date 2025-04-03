@@ -69,7 +69,8 @@ DATASET_PATH=data/cleaned_employee_attrition.csv
 ---
 
 ### 🖼️ Screenshots
-💡 
+💡 <img width="959" alt="image" src="https://github.com/user-attachments/assets/68160e02-a6fa-4a51-8ece-fb1df3e01d3d" />
+
 
 ---
 
