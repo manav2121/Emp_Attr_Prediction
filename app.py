@@ -38,15 +38,7 @@ if choice == "Dataset Overview":
     with st.expander("👀 Preview Dataset"):
         st.write(df.head())
 
-    st.write(f"✅ **Shape:** {df.shape[0]} rows, {df.shape[1]} columns")
-    st.write(f"📌 **Columns:** {', '.join(df.columns)}")
-
-    with st.expander("🔍 Missing Values Summary"):
-        missing_values = df.isnull().sum()
-        st.write(missing_values[missing_values > 0] if missing_values.sum() > 0 else "No missing values ✅")
-
-    with st.expander("📊 Summary Statistics"):
-        st.write(df.describe())
+  
 
 # Attrition Analysis
 elif choice == "Attrition Analysis":
